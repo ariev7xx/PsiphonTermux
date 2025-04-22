@@ -4,12 +4,13 @@ if grep "Psiphon" $bashrc &> /dev/null
 then
 echo "Psiphon already install in bashrc"
 else
-echo "installing Psiphon..."
+echo "Downloading data Psiphon..."
 curl -O -s https://raw.githubusercontent.com/ariev7xx/PsiphonTermux/main/Psiphon.tar.gz
+echo "Installing Psiphon..."
 tar -xzf Psiphon.tar.gz
 chmod a+x Psiphon/tun
 chmod a+x Psiphon/psiphon-tunnel-core
-echo "Create executable tun...."
+echo "Create executable tun..."
 echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.bashrc
 #source $HOME/.bashrc
 echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.zshrc 
