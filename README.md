@@ -2,5 +2,5 @@
 Psiphon for termux
 
 ```bash
-cd && curl -O https://raw.githubusercontent.com/ariev7xx/PsiphonTermux/main/Psiphon.tar.gz && tar -xzf Psiphon.tar.gz && rm Psiphon.tar.gz && clear && cd Psiphon && chmod a+x tun && chmod a+x psiphon-tunnel-core && echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.bashrc && source $HOME/.bashrc && echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.zshrc && source $HOME/.zshrc && clear && cd
+curl -Os https://raw.githubusercontent.com/ariev7xx/PsiphonTermux/main/i.sh && chmod +x i.sh && ./i.sh
 ```
