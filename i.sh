@@ -11,9 +11,9 @@ chmod a+x Psiphon/tun
 chmod a+x Psiphon/psiphon-tunnel-core
 echo "Create executable tun...."
 echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.bashrc
-source $HOME/.bashrc
+#source $HOME/.bashrc
 echo 'PATH="$PATH:$HOME/Psiphon"' >> $HOME/.zshrc 
-source $HOME/.zshrc 
+#source $HOME/.zshrc 
 fi
 rm i.sh
 rm Psiphon.tar.gz
