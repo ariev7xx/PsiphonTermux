@@ -17,6 +17,6 @@ source $HOME/.zshrc
 fi
 rm i.sh
 rm Psiphon.tar.gz
-echo "Done. Type 'tun' for run Psiphon. 'tun -h' for help"
+echo "Done. restart termux and Type 'tun' for run Psiphon. 'tun -h' for help"
 read
 exit
