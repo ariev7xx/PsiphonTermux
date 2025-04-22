@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+clear
 cd
 bashrc=$HOME/.bashrc
 if grep "Psiphon" $bashrc &> /dev/null
